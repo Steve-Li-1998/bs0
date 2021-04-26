@@ -1,0 +1,40 @@
+Aufgabe 0
+
+1.
+ls -d
+
+2.
+man 1 printf : commands printf. 
+man 3 printf : library printf.
+
+3.
+mv file1 file2
+Benennen file1 in file2 um.
+
+
+
+
+
+
+
+
+Aufgabe 1
+
+1. 
+a) 
+Integer hat overflow.
+
+
+b) 
+n ist eine lokale Variable in Methode rek(int n), welcher hat auf dem Stack gespeichert. 
+Wenn n zu gross ist, hat Stack keinen genug Platz(overflow), und kann das Programm auch 
+nicht mehr auszuführen.
+
+
+3. 
+Die rekursiven Funktion ruft sich selbst an, deshalb hat nicht zu viele Adresse verbraucht
+
+
+4. 
+Da globale Variablen im BSS- oder Datensegment landen, aber lokale Variablen landen 
+auf dem Stack.
