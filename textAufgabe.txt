@@ -9,7 +9,7 @@ man 3 printf : library printf.
 
 3.
 mv file1 file2
-Benennen file1 in file2 um.
+mv kann auch die Dateien verlagern.
 
 
 
