@@ -22,19 +22,21 @@ Aufgabe 1
 
 1. 
 a) 
-Integer hat overflow.
+Integer hat overflow. Bei mei ist n = 31.
 
 
 b) 
 n ist eine lokale Variable in Methode rek(int n), welcher hat auf dem Stack gespeichert. 
 Wenn n zu gross ist, hat Stack keinen genug Platz(overflow), und kann das Programm auch 
-nicht mehr auszuführen.
+nicht mehr auszuführen. Bei mir ist n = 4789
+
+
+2. 
+Die lokale Variablen wurde im Stack gespeichert. Wenn die Funktion selbst anrufen, 
+werden vielen neuen lokale Variablen erzeugt. Und im Stack wird die Variable von hohe 
+Addresse nach niedrige Adresse zugeordnet.
 
 
 3. 
-Die rekursiven Funktion ruft sich selbst an, deshalb hat nicht zu viele Adresse verbraucht
-
-
-4. 
 Da globale Variablen im BSS- oder Datensegment landen, aber lokale Variablen landen 
 auf dem Stack.
