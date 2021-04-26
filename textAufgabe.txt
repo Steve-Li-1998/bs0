@@ -1,11 +1,11 @@
 Aufgabe 0
 
 1.
-ls -d
+ls -l
 
 2.
-man 1 printf : commands printf. 
-man 3 printf : library printf.
+man 1 printf zeigt den Gebrauch des Shell-Kommandos "printf". 
+man 3 printf zeigt den Gebrauch von der Funktion "printf", die in der C-Bibliothek stehen. 
 
 3.
 mv file1 file2
