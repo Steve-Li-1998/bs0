@@ -4,7 +4,7 @@
 int fak(int n) {
 	if (n<0)
 	{
-		return NULL;
+		return 0;
 	}
 	if (0==n)
 	{

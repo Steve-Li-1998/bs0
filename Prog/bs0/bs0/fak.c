@@ -10,7 +10,7 @@ double y1;
 
 int fak(int n){
 	if(n < 0){
-		return NULL;
+		return 0;
 	}
     if(n==0){
         return 1;
